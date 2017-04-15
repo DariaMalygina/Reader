@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="toast_error_delete_feed_by_url">Ошибка при удалении данных</string>
+    <string name="toast_feed_successfully_delete_feed_by_url">Канал удалён</string>
+    <string name="alert_dialog_title_for_item_list_view">Удалить этот канал?</string>
+    <string name="alert_dialog_title_button_yes_for_item_list_view">Да</string>
+    <string name="alert_dialog_title_button_no_for_item_list_view">Нет</string>
+</resources>

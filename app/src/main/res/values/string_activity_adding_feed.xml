@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="button_add_new_feeds">Добавить</string>
+
+    <string name="edit_text_url_feed">URL КАНАЛА</string>
+
+    <string name="toast_check_edit_text">Заполните все поля</string>
+    <string name="toast_error_add_feed">Ошибка добавления данных</string>
+    <string name="toast_incorrect_url_add_feed">Некорректный адресс</string>
+    <string name="toast_feed_successfully_add">Канал успешно добавлен</string>
+    <string name="toast_warning_feed_exists">Вы уже подписанны на этот канал</string>
+
+</resources>

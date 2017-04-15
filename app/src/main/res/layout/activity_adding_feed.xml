@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.example.asus.reader.gui.ActivityAddingFeed">
+    <RelativeLayout
+        android:orientation="vertical"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <ProgressBar
+            android:id="@+id/progressBarAddingFeed"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            style="@style/CircularProgress"/>
+
+        <LinearLayout
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:layout_alignParentTop="true"
+            android:clickable="true"
+            android:gravity="center">
+
+            <EditText
+                android:id="@+id/editTextUrlFeed"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:hint="@string/edit_text_url_feed"
+                android:inputType="textUri"
+                style="@style/PrimaryFlatEditText"/>
+        </LinearLayout>
+
+
+        <Button
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:layout_alignParentBottom="true"
+            android:onClick="onClickAddNewFeed"
+            android:text="@string/button_add_new_feeds"
+            style="@style/PrimaryFlatButton"/>
+
+
+
+    </RelativeLayout>
+</android.support.constraint.ConstraintLayout>

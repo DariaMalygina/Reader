@@ -1,0 +1,5 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="view_empty_for_list_feeds">НЕТ ДАННЫХ!</string>
+    <string name="view_error_for_list_feeds">ОШИБКА!</string>
+</resources>
